@@ -40,10 +40,10 @@ void draw()
   System.out.println(y);
 }
 
-//void mousePressed () {
-  //redraw();
-  //respawn = true;
-//}
+void mousePressed () {
+  redraw();
+  respawn = true;
+}
 
 class Particle
 {
