@@ -113,8 +113,8 @@ void Firework () {
   rect(x+350, y+400, 20, 35);
   fill(0, 255, 255);
   triangle(x+345, y+400, x+360, y+380, x+375, y+400);
-  //if (mousePressed) {
+  if (mousePressed) {
     x+=(int)(random(-10, 10));
     y-=30;
-  //}
+  }
 }
