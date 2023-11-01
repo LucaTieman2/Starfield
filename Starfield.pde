@@ -9,7 +9,7 @@ void setup()
   size(500, 500);
   background(0);
   despawnTimer = 0;
-  respawn = false;
+  respawn = true;
   for (int i = 0; i < Leo.length; i++) { //intializing the explosion
     Leo[i] = new Particle();
   }
