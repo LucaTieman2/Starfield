@@ -37,7 +37,6 @@ void draw()
       despawnTimer = 0;
     }
   }
-  System.out.println(y);
 }
 
 void mousePressed () {
